@@ -7,14 +7,15 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: mynote
+  baseUrl: zhiyuan-23301024.github.io/mynote
   ignorePatterns:
     - private
     - templates
     - .obsidian
     - .trash
+    - assets
   theme:
-    fontOrigin: local
+    fontOrigin: googleFonts
     cdnCaching: true
     typography:
       header: Schibsted Grotesk
