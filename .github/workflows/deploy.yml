@@ -40,6 +40,8 @@ jobs:
             ${{ runner.os }}-plugins-
       - name: Install Dependencies
         run: npm ci
+      - name: Make Quartz CLI executable
+        run: chmod +x quartz/bootstrap-cli.mjs
       - name: Install Quartz plugins
         run: npx quartz plugin install
       - name: Build Quartz
