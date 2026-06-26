@@ -13,7 +13,8 @@ configuration:
     - templates
     - .obsidian
     - .trash
-    - assets
+    - .assets
+    - Excalidraw
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
