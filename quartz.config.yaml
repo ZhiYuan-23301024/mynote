@@ -19,9 +19,9 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: Noto Sans SC
+      body: Noto Sans SC
+      code: Noto Sans Mono
     colors:
       lightMode:
         light: "#faf8f8"
@@ -159,6 +159,24 @@ plugins:
       priority: 50
   - source: github:quartz-community/graph
     enabled: true
+    options:
+      localGraph:
+        repelForce: 2
+        centerForce: 0.2
+        linkDistance: 50
+        fontSize: 0.7
+        scale: 1
+        depth: 2
+        showTags: false
+      globalGraph:
+        repelForce: 3
+        centerForce: 0.1
+        linkDistance: 60
+        fontSize: 0.7
+        scale: 0.7
+        showTags: false
+        focusOnHover: true
+        enableRadial: true
     layout:
       position: right
       priority: 10

@@ -1,2 +1,6 @@
 content/.obsidian/
 content/教材/
+node_modules/
+public/
+quartz/.quartz-cache/
+.quartz/
